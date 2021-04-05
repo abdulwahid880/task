@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+   
+    box-sizing: border-box;
+    width: auto;
+    font-family: 'poppins', sans-serif;
+    overflow-x: hidden;
+    
+}
+.container{
+ width: 100%;
+  height: auto;
+ 
+}
+
+.nav{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.nav .logo{
+width: 121px;
+height: 39px;
+text-align: left;
+font: normal normal bold 18px/18px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #001F3B;
+opacity: 1;
+display: flex;
+}
+.browse{
+margin-top: 16px;
+margin-left: 20px;
+width: 54px;
+height: 19px;
+text-align: left;
+font: normal normal normal 16px/19px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #8390A1;
+opacity: 1;
+}
+.center{
+    display: inherit;
+    margin-left: 150px;
+    text-transform: capitalize;
+   
+}
+.center p{
+width: 92px;
+height: 19px;
+text-align: left;
+font: normal normal bold 16px/19px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #001F3B;
+opacity: 1;
+}
+#p1{
+padding-left: 16px;
+width: 143px;
+height: 19px;
+text-align: left;
+font: normal normal bold 16px/19px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #0086FF;
+opacity: 1;
+}
+.btn-1{
+width: 38px;
+height: 16px;
+text-align: center;
+font: normal normal bold 14px/16px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #009D90;
+opacity: 1;
+border: none;
+background: none;
+margin-right: 50px;
+}
+.btn-2{
+width: 140px;
+height: 50px;
+background: #D7F8EE 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+border: none;
+text-align: left;
+font: normal normal bold 14px/16px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #009D90;
+opacity: 1;
+line-height: 34px;
+
+}
+.btn-2 img{
+vertical-align: bottom;
+width: 23px;
+height: 35px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.intro{
+ text-align: center;
+margin-top: 60px;
+}
+.intro .text{
+width: 568px;
+height: 118px;
+text-align: center;
+font: normal normal bold 48px/60px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #001F3B;
+opacity: 1;
+margin-inline: auto;
+}
+.intro .btn-primary{
+width: 150px;
+height: 50px;
+background: #0086FF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+border: none;
+color: #ffff;
+}
+.team {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.team img{
+    padding: 10px;
+}
+.team .icon-1{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 143px;
+}
+.team .icon-2{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -197px;
+}
+.team .icon-3{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 481px;
+}
+.online-meetings{
+    margin-top: -23px;
+    justify-content: center;
+    width: 1020px;
+    height: 355px;
+    background: #F7F8FA 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    margin-inline: auto;
+    padding-top: 20px;
+}
+.online-meetings .heading{
+width: 682px;
+height: 58px;
+text-align: center;
+font: normal normal bold 48px/72px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #001F3B;
+opacity: 1;
+margin-inline: auto;
+}
+.online-meetings .border{
+width: 88px;
+height: 6px;
+background: #60E3BB 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+margin-inline: auto;
+}
+.online-meetings .para{
+ width: 682px;
+height: 51px;
+text-align: center;
+font: normal normal normal 18px/30px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #001F3B;
+opacity: 1;
+margin-inline: auto;
+}
+.sign-up{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+.right{
+    width: 40%;
+}
+.left{
+    width: 40%;
+}
+.left img{
+width: 706px;
+height: 550px;
+background: transparent;
+}
+ .out{
+width: 757px;
+height: 590px;
+background: #F7F8FA  0% 0% no-repeat padding-box;
+/* border-radius: 10px; */
+-webkit-box-shadow: 27px 38px 6px 45px rgba(247,247,247,1);
+-moz-box-shadow: 27px 38px 6px 45px rgba(247,247,247,1);
+box-shadow: 27px 38px 6px 45px rgba(247,247,247,1);
+opacity: 1;
+}
+.circle{
+width: 40px;
+height: 40px;
+background: #60E3BB 0% 0% no-repeat padding-box;
+opacity: 1;
+text-align: center;
+border-radius: 50%;
+margin-bottom: -33px;
+margin-top: 20px;
+}
+.circle p{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 13px;
+height: 29px;
+text-align: center;
+font: normal normal bold 24px/72px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #001F3B;
+opacity: 1;
+}
+.right .p1{
+    width: 289px;
+    height: 178px;
+    text-align: left;
+    font: normal normal bold 48px/60px Avenir Next LT Pro;
+    letter-spacing: 0px;
+    color: #001F3B;
+    opacity: 1;
+}
+.small-line{
+width: 88px;
+height: 6px;
+background: #DADCE0 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+}
+.right .p2{
+width: 289px;
+height: 203px;
+text-align: left;
+font: normal normal normal 18px/30px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #001F3B;
+opacity: 1;
+}
+.right .p3{
+    width: 225px;
+height: 16px;
+text-align: left;
+font: normal normal normal 14px/30px Avenir Next LT Pro;
+letter-spacing: 0px;
+color: #7E8FA3;
+opacity: 1;
+}
+.left .small-img{
+    position: absolute;
+    margin-top: -442px;
+    margin-left: -141px;
+    width: 368px;
+    height: 176px;
+}
+.ban1{
+    margin-top: -16px;
+    position: absolute;
+    margin-left: 238px;
+}
+.ban2{
+    position: absolute;
+    margin-left: 371px;
+    margin-top: -17px;
+}
+.ban3{
+    position: absolute;
+    left: 44%;
+    margin-top: -16px;
+}
+.ban4{
+    position: absolute;
+    left: 55%;
+    margin-top: -17px;
+}
